@@ -8,7 +8,15 @@ public class DemoB {
 		
 		System.out.println("committing to it");
 		System.out.println("Done");
+
+		divide(40/2);
 		
+	}
+
+	public static void divide(int a, int b){
+
+		System.out.println(a/b);
+
 	}
 
 }
